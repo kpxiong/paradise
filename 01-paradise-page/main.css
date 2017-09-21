@@ -1,0 +1,39 @@
+html, body, div, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../palm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border: 2px solid darkturquoise;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid aqua;
+    color: lightskyblue;
+}
+
+
+h1 {
+    margin: 250px auto;
+    font-size: 200px;
+    font-family: "Big Caslon";
+    text-align: center;
+    text-shadow: 5px 5px 5px lightskyblue;
+    color: aquamarine;
+}
